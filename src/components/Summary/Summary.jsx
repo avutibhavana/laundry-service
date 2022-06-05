@@ -24,7 +24,7 @@ const Summary = ({Items,total,proceed,setProceed}) => {
     for(let i=0;i<7;i++){
       count+=parseInt(Items[types[i]].quantity)
     }
-    const res = await fetch("http://localhost:8080/add/order",{
+    const res = await fetch("https://laundry-backend-app.herokuapp.com/add/order",{
         method:'POST',
         headers:{
           'content-Type':'application/json',
