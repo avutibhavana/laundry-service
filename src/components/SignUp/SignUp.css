@@ -1,0 +1,120 @@
+.user-data input {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #81b1d7;
+    text-decoration: none;
+    outline: none;
+    background-color: transparent;
+}
+.app-register {
+    display: flex;
+    width: 100%;
+    height: 580px;
+    border-bottom: 2px solid #5861AE;
+}
+
+.register-page-LP {
+    width: 40%;
+}
+
+.register-page-LP h1 {
+    margin-left: 75px;
+    margin-top: 100px;
+    color: #5861AE;
+    font-size: -webkit-xxx-large;
+}
+
+.register-page-LP p {
+    margin-left: 75px;
+    margin-top: 15px;
+    font: normal normal normal 20px/32px Avenir;
+    letter-spacing: 0.8px;
+    color: #565657;
+    text-transform: capitalize;
+    opacity: 1;
+}
+
+.register-page-LP h4 {
+    margin-top: 99px;
+    margin-left: 75px;
+    font: normal normal normal 16px/26px Avenir;
+    letter-spacing: 0.64px;
+    color: #565657;
+    text-transform: capitalize;
+    opacity: 1;
+}
+
+.signin-button {
+    margin-left:70px;
+}
+
+.register-page-RP {
+    background: #F8F9FF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    width: 100%;
+}
+
+.register-page-RP p {
+    text-align: left;
+    font: normal normal normal 32px/60px Avenir;
+    letter-spacing: 1.28px;
+    color: #5861AE;
+    text-transform: uppercase;
+    opacity: 1;
+    margin-left: 75px;
+}
+
+
+.user-data {
+    display: flex;
+    margin-top: 25px;
+}
+
+.user-data-lf {
+    width: 50%;
+}
+.user-data-lf label {
+    margin-left: 75px;
+}
+
+.user-data-lf input {
+    margin-left: 75px;
+    margin-bottom: 35px;
+    width: 280px;
+}
+
+.user-data-rs label {
+    margin-left: 75px;
+}
+
+.user-data-rs input {
+    margin-left: 75px;
+    width: 280px;
+    margin-bottom: 35px;
+}
+.user-verification {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.user-verification input {
+    margin-left: 100px;
+}
+
+.user-verification label {
+    margin-right: 113px;
+    margin-left: 10px;
+    border-bottom: 1px solid #5050d7;
+    color: #5861AE;
+}
+
+
+.user-verification button {
+    margin-top: 40px;
+    margin-right: 177px;
+    background-color: #5861AE;
+    color: white;
+}
+span.eye-icon-signup {
+    margin-left: -26px;
+}

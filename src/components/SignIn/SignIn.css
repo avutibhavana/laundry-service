@@ -1,0 +1,128 @@
+.app-sigin{
+    display: flex;
+    flex-direction: column;
+}
+
+.app-sigin-section{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    border-bottom: 1px solid #1818cf;
+}
+.sigin-left {
+    width: 50%;
+    height: 600px;
+}
+
+button {
+    margin-left: 100px;
+    width: 100px;
+    height: 30px;
+    color: #5861AE;
+    border-radius: 4px;
+    border: 2px solid #4552C1;
+    text-decoration: none;
+}
+
+.app-userform {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    background-color: ghostwhite;
+}
+span {
+    margin-left: 100px;
+    margin-top: 100px;
+    font-size: x-large;
+    color: #5861AE;
+    margin-bottom: 20px;
+}
+button.signin {
+    height: 30px;
+    width: 90px;
+    color: #f7f5f5;
+    background-color: #4552C1;
+    /* border-color: white; */
+    border-radius: 4px;
+    padding: 5px;
+    margin-top: 75px;
+    margin-left: 157px;
+}
+
+
+
+.sigin-left h4 {
+    font: normal normal normal 20px/26px Avenir;
+    letter-spacing: 0.8px;
+    color: #565657;
+    text-transform: capitalize;
+    opacity: 1;
+    margin-left: 100px;
+    margin-bottom: 65px;
+    margin-top: 38px;
+  }
+  
+.app-userform .user-forgot{
+text-decoration: none;
+color:#4552C1;
+margin-bottom: 50px;
+margin-right: 0;
+}
+
+
+.sigin-left p {
+    font: normal normal normal 16px/26px Avenir;
+    letter-spacing: 0.64px;
+    color: #565657;
+    text-transform: capitalize;
+    opacity: 1;
+    margin-left: 100px;
+}
+  
+.sigin-left p {
+    font: normal normal normal 16px/26px Avenir;
+    letter-spacing: 0.64px;
+    color: #565657;
+    text-transform: capitalize;
+    opacity: 1;
+    margin: 0 0 20px 100px;
+}
+
+.sigin-left h2 {
+    height: auto;
+    border: none;
+    margin-top: 100px;
+    font-size: xxx-large;
+    margin-left: 100px;
+    color: #5861AE;
+}
+.app-userform input {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #81b1d7;
+    text-decoration: none;
+    outline: none;
+    background-color: transparent;
+    margin-left: 100px;
+    width: 270px;
+    font-size: 16px;
+}
+.app-userform label {
+    margin-left: 100px;
+    margin-top: 11px;
+    margin-bottom: 6px;
+    color: #5050d7;
+    height: 30px;
+    font-size: larger;
+}
+a.forgot {
+    margin-top: 10px;
+    margin-left: 285px;
+}
+span.eye-icon {
+    margin-top: -33px;
+    margin-left: 347px;
+}

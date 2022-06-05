@@ -1,0 +1,132 @@
+.order-cancel-summary{
+display: flex;
+justify-content: flex-start;
+align-items: center;
+width:700px;
+height:900px;
+position: absolute;
+right:0;
+top:-99px;
+background-color: white;
+}
+
+.order-cancel-popup{
+position:absolute;
+display:flex;
+flex-direction: column;
+justify-content:center;
+align-items: center;
+top:200px;
+left:500px;
+background-color:white;
+width:600px;
+height:400px;
+box-shadow: 0 0 6px gray;
+border-radius: 5px;
+}
+
+.app-cancel-checkout {
+width: 100%;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+}
+
+.app-cancel-checkout h2 {
+background-color: #5861AE;
+letter-spacing: 5px;
+color: #FFFFFF;
+font-size: x-large;
+margin: 10px 0 0 23px;
+}
+.app-cancel-checkout-heading {
+width: 100%;
+background-color: #5861AE;
+display: flex;
+height: 60px;
+justify-content: space-between;
+align-items: center;
+}
+
+.app-cancel-checkout .close {
+color: white;
+font-size: xx-large;
+}
+
+.cancel-user-address{
+display: flex;
+width:100%;
+justify-content: space-around;
+align-items: center;
+background-color: #F4F9FF;
+}
+
+.cancel-store-address,.cancel-store-location,.cancel-user-phone{
+width:33%;
+display: flex;
+flex-direction:column ;
+padding: 10px;
+}
+    
+.cancel-store-address h3 {
+text-align: left;
+font: normal normal 600 16px/22px Open Sans;
+letter-spacing: 0.38px;
+color: #1B2734;
+}
+
+.cancel-user-address input {
+height: 20px;
+border: none;
+border-bottom: 1px solid #E3DFD9;
+border-color: #1B2734;
+background-color: #F4F9FF;
+outline: none;
+width: 140px;
+margin:0 0 20px 0
+}
+
+.cancel-checkout-items{
+width: 100%;
+}
+.cancel-checkout-items tr{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+width:100%;
+padding:4px 0;
+border-bottom: 1px dashed #707070;
+}
+.cancel-checkout-items td{
+width:33%;
+}
+.cancel-checkout-costs{
+display: flex;
+width:100%;
+justify-content: flex-end;
+align-items: center;
+}
+
+.cancel-checkout-costs p{
+border-bottom: 1px dotted #707070; 
+padding: 5px 20px 5px 0 ;
+}
+.cancel-checkout-address{
+width:100%;
+padding-left: 20px;
+}
+
+.cancel-checkout-address p{
+width:10vw;
+border: 1px solid #5861AE;
+padding:10px;
+margin-bottom:10px;
+border-radius: 5px;
+}
+
+.app-cancel-checkout button{
+position: absolute;
+bottom:20px;
+right:20px;
+}

@@ -1,0 +1,79 @@
+.app-details{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.app-offers{
+display: flex;
+flex-direction: column;
+height: 80px;
+width: 100%;
+justify-content: center;
+align-items: center;
+}
+.app-offers h2{
+color:#5861AE;
+}
+.app-offers p{
+color:#3D3D43;
+font-family: open sans;
+letter-spacing: 0.4x;
+font-size: 14px;
+font-style: italic;
+opacity: 1;
+}
+.app-sign-footer p,h2,h3{
+/* font-family: Helvetica; */
+color:#182838;
+padding:5px 0 ;
+margin:0
+}
+.app-sign-footer h2{
+font-size: 20px;
+font-weight:600;
+}
+.app-sign-footer h3{
+font-size: 18px;
+font-weight:500;
+}
+
+.app-sign-footer{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+row-gap: 40px;
+height: 250px;
+width: 80%;
+background-image: url("../../assets/Footer.svg");
+background-repeat: no-repeat;
+background-size: contain;
+}
+
+.app-footer-sections{
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+min-width: max-content;
+height:150px;
+}
+
+#app-footer-about h2{
+position: relative;
+left:-75px;
+}
+
+.app-media-icons{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-top: 10px;
+color: #5861AE;
+opacity: 60%;
+}
+
+.app-media-icons img{
+padding-right: 20px;
+}

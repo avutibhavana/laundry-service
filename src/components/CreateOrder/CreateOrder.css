@@ -1,0 +1,164 @@
+.app-create-order{
+display: flex;
+width:100%;
+height:800px;
+}
+.create-section{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width:90%;
+padding-left: 50px;
+z-index: 1;
+}
+
+.create-heading{
+display: flex;
+justify-content:space-between;
+align-items: center;
+width:100%;
+margin-bottom: 20px;
+}
+
+.create-heading input{
+outline: none;
+text-decoration: none;
+border: none;
+border-bottom: 2px solid #A0A0A0;
+}
+
+.create-table-header{
+display: flex;
+justify-content:flex-start;
+align-items: center;
+column-gap:2% ;
+width:100%;
+background-color: #2F2F2F;
+}
+
+.create-table-header h3{
+color:white;
+}
+
+.table-order-options{
+display: flex;
+flex-direction: column;
+width:100%;
+}
+
+.create-order-details{
+display: flex; 
+width:100%; 
+height:80px;
+justify-content:flex-start;
+align-items: center;
+border-bottom: 1px solid #E0E0E0;
+column-gap:2% ;
+}
+
+.create-order-details input{
+width:60px;
+height:30px;
+}
+
+.order-washtype{
+display: flex;
+justify-content: space-between;
+align-items: center;
+width:30%;
+}
+
+/* .order-washtype img{
+padding-right: 50px;
+} */
+
+#order-photo{
+display: flex;
+justify-content:center;
+align-items: center;
+}
+
+#order-photo img{
+width:45px;
+height:45px;
+padding-right: 10px;
+}
+
+#order-photo .order-name{
+width:200px;
+height:40px;
+}
+
+.order-name h3,p{
+padding: 0;
+margin: 0;
+}
+
+.order-name{
+text-transform: capitalize;
+}
+    
+
+.order-producttype{
+width:20%;
+}
+.order-quantity{
+width:10%;
+}
+
+.order-price{
+display: flex;
+justify-content: center;
+align-items: center;
+width:10%;
+}
+
+.order-reset{
+display: flex;
+justify-content: center;
+align-items: center;
+width:15%;
+}
+
+.create-order-details button{
+color: #4552C1;
+background-color: #f7f5f5;
+border-radius: 4px;
+border:1px solid #5861AE;
+padding: 5px 10px;
+width:fit-content;
+}
+
+.create-proceed{
+display: flex;
+width:100%;
+justify-content: flex-end;
+align-content: center;
+}
+
+.create-proceed button{
+color: #4552C1;
+background-color: #f7f5f5;
+border-radius: 4px;
+border:1px solid #5861AE;
+padding: 5px 10px;
+margin:10px 5px;
+}
+
+button:hover{
+background-color: #5861AE;
+color: white;
+}
+
+.order-summary{
+display: flex;
+justify-content: center;
+align-items: center;
+width:60%;
+position:absolute;
+top:0;
+right:0;
+background-color: white;
+z-index:3
+}
